@@ -1,7 +1,7 @@
 <?php
 	include 'connectDB.php';
 
-	$sql = "DELETE FROM guestacc;";
+	$sql = "DELETE * FROM guestacc;";
 	
 	if (mysqli_multi_query($conn, $sql)) {
    	 echo "You have delete all customer.";

@@ -224,7 +224,6 @@ nav ul li a:hover{
 	-webkit-box-shadow: 10px 10px 5px -5px rgba(196,184,196,1);
 	-moz-box-shadow: 10px 10px 5px -5px rgba(196,184,196,1);
 	box-shadow: 10px 10px 5px -5px rgba(196,184,196,1);
-	
 }
 .card:hover{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);

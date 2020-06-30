@@ -1429,7 +1429,7 @@
 							<div class="seats-row">
 							<?php 
 								require_once('connectDB.php');
-								 $idghe = $_COOKIE['Id_book']; 
+								$idghe = $_COOKIE['Id_book']; 
 								$sql = "SELECT * FROM $idghe where row ='18b'";
 								
 								$result = $conn->query($sql);

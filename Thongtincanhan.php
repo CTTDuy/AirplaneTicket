@@ -184,22 +184,12 @@ input[type=text], input[type=password] {
   cursor: pointer;
   width: 100%;
 }
-
-.G-button button a:hover{
-	
-	text-decoration: none;
-
-}
 form{
 	border: solid;
 	border-width: 3px;
 	border-radius: 10px 10px 10px 10px;
 	padding: 20px;
 }	
-
-
-
-
 		</style>
 	</head>
 	<body>
@@ -225,12 +215,8 @@ form{
 						?>
 						<li><a href="Thongtincanhan.php" class="active"> <?php echo $_COOKIE['user'];?><i class='fas fa-user' style='font-size:14px; margin-left:10px;'></i></a></li>
 						<?php
-							}
-				
-
-
-
-		?>
+						}
+						?>
 					</ul>
 				</nav>
 			<div class="clearfix"></div>
@@ -288,9 +274,6 @@ form{
 		<div id="footer"  class="container" align="center" style="padding: 20px 0px 20px 0px;">
 			<span class="text-muted" class="section" >©2019 Đại học Tôn Đức Thắng </span>
 		</div>
-
-		
-		
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
